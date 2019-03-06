@@ -1,5 +1,5 @@
 {
-  "name": "@brunolemos/react-native",
+  "name": "@entria/react-native",
   "version": "0.57.7-hooks.2",
   "description": "A framework for building native apps using React",
   "license": "MIT",
@@ -121,6 +121,9 @@
     "README.md",
     "third-party-podspecs"
   ],
+   "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "node ./local-cli/cli.js start",
     "test": "jest",
